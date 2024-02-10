@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background-color: #6983aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_div {
+  width: 400px; 
+  min-height: 500px; 
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  /* padding: 20px; */
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  background-color: #8566aa;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+  color: white; 
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+  padding: 0px 50px 0px 40px;
+}
+
+.input {
+  flex: 1; 
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+
+button {
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  border: none; 
+  background-color: #8566aa;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #20fb6b;
+}
+
+ol {
+  margin-top: 20px; 
+}
+
+ol li {
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  color: #8566aa;
+  text-transform: capitalize;
+  list-style: none;
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 5px 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+}
+.todo_style .fa-times:hover{
+  background-color: crimson;
+}
+.todo_style .fa-times .list_style{
+  color: crimson;
+}
